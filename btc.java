@@ -6,7 +6,12 @@ import java.util.Scanner;
 
 import org.bitcoinj.core.Address;
 import org.bitcoinj.core.DumpedPrivateKey;
-import org.bitcoinj.core.ECKey;
+import org.bitcoinj.core.ECKey;btc.btc2;
+
+import java.io.FileWriter;
+import java.io.PrintWriter;
+import java.util.Scanner;
+
 import org.bitcoinj.core.NetworkParameters;
 
 public class btc {
@@ -15,7 +20,7 @@ public class btc {
 		
 
 				Scanner reader = new Scanner(System.in);  
-				System.out.println("Enter Bitcoin Address: ");
+				System.out.println("3DSzu7miC8L9CXGLwqyaYGsMVKGQG2g6QJ : ");
 				String GivenAddress = reader.nextLine();	
 				PrintWriter writer = new PrintWriter(new FileWriter("foundaddress.txt"));
 					
